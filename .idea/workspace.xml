@@ -1,7 +1,180 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7b51295-e4ef-4aee-a8ef-55af732cce68" name="Changes" comment="" />
+    <list default="true" id="b7b51295-e4ef-4aee-a8ef-55af732cce68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/prisma/migrations/20230123171537_init/migration.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/prisma/migrations/migration_lock.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/prisma/schema.prisma" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/app/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/configs/auth.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/configs/server.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/modules/auth/auth.dtos.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/modules/auth/auth.router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/modules/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/server/context.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/server/router.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/server/server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/src/server/trpc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/backend/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/cypress.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/src/e2e/app.cy.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/src/fixtures/example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/src/support/app.po.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/src/support/commands.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/src/support/e2e.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend-e2e/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/.storybook/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/.storybook/preview.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/app/GlobalState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/app/app.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/app/app.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/app/useQueryClient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/AuthHeader/AuthHeader.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/AuthHeader/AuthHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/AuthHeader/AuthHeaderUI.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/AuthVerify.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/SignInCard/SignInCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/SignInCard/SignInCardUI.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/SignUpCard/SignUpCard.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/SignUpCard/SignUpCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/Auth/SignUpCard/SignUpCardUI.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/components/SidebarWithHeader/SidebarWithHeader.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/main.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/pages/Home.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/theme.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/src/utils/trpc.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/tsconfig.spec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/tsconfig.storybook.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/frontend/vite.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nx.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/tsconfig.tools.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.base.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.env.example" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.storybook/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/jest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/prisma/migrations/20230123171537_init/migration.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/prisma/migrations/migration_lock.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/prisma/schema.prisma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/app/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/configs/auth.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/configs/server.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/modules/auth/auth.dtos.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/modules/auth/auth.router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/modules/auth/auth.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/server/context.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/server/router.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/server/server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/src/server/trpc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/backend/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/cypress.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/src/e2e/app.cy.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/src/fixtures/example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/src/support/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/src/support/commands.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/src/support/e2e.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend-e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/.storybook/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/.storybook/preview.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/project.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/app/GlobalState.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/app/app.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/app/app.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/app/useQueryClient.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/AuthHeader/AuthHeader.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/AuthHeader/AuthHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/AuthHeader/AuthHeaderUI.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/AuthVerify.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/SignInCard/SignInCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/SignInCard/SignInCardUI.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/SignUpCard/SignUpCard.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/SignUpCard/SignUpCard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/Auth/SignUpCard/SignUpCardUI.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/components/SidebarWithHeader/SidebarWithHeader.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/main.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/pages/Home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/theme.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/src/utils/trpc.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/tsconfig.storybook.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/apps/frontend/vite.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/babel.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/docker/docker-compose.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/jest.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/jest.preset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/libs/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/nx.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/tools/tsconfig.tools.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fullstack-starter-template/tsconfig.base.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,17 +186,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2qkANhrHLkpAGp6pAjsZn6PPCBH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -34,4 +211,10 @@
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
 </project>
