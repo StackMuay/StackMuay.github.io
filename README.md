@@ -1,6 +1,6 @@
-# Full stack starter template
+# Muay Thai Gym app
 
-Monorepository TypeScript template for full stack applications.
+Nak Muay means "Thai boxer" in Thai, referring to practitioners of Muay Thai. The pun Stack Muay plays on this. This idea is inspired by the Muay Thai gym I attend (The Mango Tree at Kaimuki). After using their app and noticing its flaws, I wanted to challenge myself to create something better tailored to their needs.
 
 - Maximized for productivity
 - Based on cutting edge technologies
